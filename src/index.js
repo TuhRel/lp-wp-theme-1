@@ -3,14 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import Single from './templates/single';
+import SinglePost from './templates/single';
+import AllPost from './templates/allPost';
+import NotFound from './templates/notFound';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 ReactDOM.render(
   <BrowserRouter>
     <Routes>
       <Route path='/' element={<App/>} />
-      <Route path='/page' element={<Single/>} />
+      <Route path='/post/:slug' element={<SinglePost/>} />
+      <Route path='/post-archive' element={<AllPost/>} />
+      <Route path='*' element={<NotFound/>} />
     </Routes>
   </BrowserRouter>,
   document.getElementById('root')

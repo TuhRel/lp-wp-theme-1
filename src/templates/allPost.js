@@ -1,16 +1,16 @@
 import React from "react";
 import Navbar from "../components/navbar";
 
-const SinglePost = () => {
+const AllPost = () => {
 
   return (
 
     <>
       <Navbar />
-      <h1>this is the single post page</h1>
+      <h1>this is the post archive page</h1>
     </>
 
   );
 }
 
-export default SinglePost;
+export default AllPost;
