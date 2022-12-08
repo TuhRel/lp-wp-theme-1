@@ -30,7 +30,7 @@ const NavContainer = Styled.div`
   height: 80px;
   z-index: 1;
   width: 100%;
-  padding: 0 24px;
+  padding: 0 0.5rem;
   max-width: 1100px;
 `
 
@@ -41,7 +41,6 @@ const NavLogo = Styled(Link)`
     font-size: 1.5rem;
     display: flex;
     align-items: center;
-    margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
 `
