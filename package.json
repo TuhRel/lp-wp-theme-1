@@ -3,12 +3,17 @@
     "version": "0.1.0",
     "private": true,
     "dependencies": {
-        "@devloco\/react-scripts-wptheme": "^3.4.1-wp.1",
-        "@testing-library\/jest-dom": "^4.2.4",
-        "@testing-library\/react": "^9.3.2",
-        "@testing-library\/user-event": "^7.1.2",
+        "@devloco/react-scripts-wptheme": "^3.4.1-wp.1",
+        "@emotion/styled": "^11.10.5",
+        "@mui/icons-material": "^5.10.16",
+        "@mui/material": "^5.10.17",
+        "@testing-library/jest-dom": "^4.2.4",
+        "@testing-library/react": "^9.3.2",
+        "@testing-library/user-event": "^7.1.2",
         "react": "^18.2.0",
-        "react-dom": "^18.2.0"
+        "react-dom": "^18.2.0",
+        "react-router-dom": "^6.4.4",
+        "react-router-link": "^2.0.2"
     },
     "scripts": {
         "crabuild": "react-scripts build",
@@ -35,6 +40,6 @@
             "last 1 safari version"
         ]
     },
-    "homepage": "\/wp-content\/themes\/lp-wp-theme-1",
-    "browserLaunchTo": "http:\/\/localhost:8888"
+    "homepage": "/wp-content/themes/lp-wp-theme-1",
+    "browserLaunchTo": "http://localhost:8888"
 }
